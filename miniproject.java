@@ -84,6 +84,7 @@ String Choice=sc.nextLine();
 if(Choice.equalsIgnoreCase("yes")==false) 
 {
     System.out.println("thanks for visiting...Come Again Soon");
+    return;
 }
 
 else
